@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install type="component" version="1.5.0">
+	<name>udtranslator</name>
+	<author>UndeadCS</author>
+	<description>Переводчик текстов из любого языка в любой другой</description>
+	<administration>
+		<menu controller="list">Переводчик</menu>
+		<submenu>
+			<menu controller="list">Список</menu>
+			<menu controller="add">Добавление</menu>
+			<menu controller="search">Поиск</menu>
+		</submenu>
+		<files>
+			<filename>admin.udtranslator.php</filename>
+			<filename>trapi.php</filename>
+			<filename>lib.php</filename>
+			<filename>controller.php</filename>
+			<filename>main.css</filename>
+			<filename>toolbar.udtranslator.html.php</filename>
+			<filename>toolbar.udtranslator.php</filename>
+			<filename>index.html</filename>
+			
+			<filename>controllers/index.html</filename>
+			<filename>controllers/list.php</filename>
+			<filename>controllers/add.php</filename>
+			<filename>controllers/search.php</filename>
+			
+			<filename>models/index.html</filename>
+			<filename>models/list.php</filename>
+			<filename>models/add.php</filename>
+			<filename>models/search.php</filename>
+			
+			<filename>views/index.html</filename>
+			<filename>views/add/index.html</filename>
+			<filename>views/add/view.html.php</filename>
+			<filename>views/add/tmpl/index.html</filename>
+			<filename>views/add/tmpl/default.php</filename>
+			<filename>views/list/index.html</filename>
+			<filename>views/list/view.html.php</filename>
+			<filename>views/list/tmpl/index.html</filename>
+			<filename>views/list/tmpl/default.php</filename>
+			<filename>views/search/index.html</filename>
+			<filename>views/search/view.html.php</filename>
+			<filename>views/search/tmpl/index.html</filename>
+			<filename>views/search/tmpl/default.php</filename>
+		</files>
+	</administration>
+	
+</install>

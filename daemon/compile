@@ -1,0 +1,28 @@
+#!/bin/bash
+echo compiling...
+echo " file.cpp"
+g++ -Wall -c -x c++ file.cpp -o debug/file.o
+echo " trindex.cpp"
+g++ -Wall -c -x c++ trindex.cpp -o debug/trindex.o
+echo " trnode.cpp"
+g++ -Wall -c -x c++ trnode.cpp -o debug/trnode.o
+echo " trtree.cpp"
+g++ -Wall -c -x c++ trtree.cpp -o debug/trtree.o
+echo " trinfo.cpp"
+g++ -Wall -c -x c++ trinfo.cpp -o debug/trinfo.o
+echo " util.cpp"
+g++ -Wall -c -x c++ util.cpp -o debug/util.o
+echo " warodai.cpp"
+g++ -Wall -c -x c++ warodai.cpp -o debug/warodai.o
+echo " converter.cpp"
+g++ -Wall -c -x c++ converter.cpp -o debug/converter.o
+echo " log.cpp"
+g++ -Wall -c -x c++ log.cpp -o debug/log.o
+echo " main.cpp"
+g++ -Wall -c -x c++ main.cpp -o debug/main.o
+echo " translator.cpp"
+g++ -Wall -c -x c++ translator.cpp -o debug/translator.o
+echo " config.cpp"
+g++ -Wall -c -x c++ config.cpp -o debug/config.o
+echo " daemon.cpp"
+g++ -Wall -c -x c++ daemon.cpp -o debug/daemon.o

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo building...
+cd debug
+g++ -L/usr/lib/ -otranslator_exe config.o translator.o main.o log.o util.o warodai.o converter.o file.o trindex.o trnode.o trinfo.o trtree.o daemon.o -liconv
+cd ..
